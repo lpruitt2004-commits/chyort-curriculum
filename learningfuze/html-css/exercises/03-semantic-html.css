@@ -1,0 +1,25 @@
+/* Assignment 3: Semantic HTML Styles
+   Add CSS to style your semantic HTML article page. */
+
+body {
+  font-family: Georgia, serif;
+  margin: 2em;
+  background: #f4f4f4;
+}
+header, footer {
+  background: #222;
+  color: #fff;
+  padding: 1em;
+}
+main {
+  display: flex;
+  gap: 2em;
+}
+article {
+  flex: 3;
+}
+aside {
+  flex: 1;
+  background: #eee;
+  padding: 1em;
+}
